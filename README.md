@@ -1,4 +1,4 @@
-# htma5 and css3-learning
+# html5 and css3-learning
 
 ## 👋 Olá, eu sou a Geovanna!
 
