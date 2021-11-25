@@ -1,0 +1,13 @@
+@charset "UTF-8";
+body {
+    background-color: black;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+h1 {
+    color: white;
+}
+h2 {
+    color: red
+}
