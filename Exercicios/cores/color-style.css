@@ -1,0 +1,13 @@
+@charset "UFT-8";
+
+body{
+    background-color: #E0B58B;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+h1{
+    background-color: #A8582D;
+    color: #5198DB;
+    text-align: left;
+}
