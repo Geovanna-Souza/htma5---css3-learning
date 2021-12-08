@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+* {
+    font-family:'Teko', sans-serif;
+}
+
+main{
+    box-shadow: 3px,3px, 4px, #F8074A;
+    margin: auto;
+    padding: 15px;
+    width: 600px;
+    border-radius: 12px;
+    background-color: white;
+}
+
+body{
+    background-image: linear-gradient(45deg, #CE05F0, #8007D9, #5107F8);
+}
+
+h1{
+    color: #D907A9;
+    text-align: center;
+    text-shadow: 2px, 2px, 3px, #F8074A;
+    font-size: 2em;
+}
+
+h1#principal{
+    color: #8007D9;
+    text-align: left;
+    text-shadow: 2px, 2px, 3px, #5107F8;
+    font-size: 2.5em;
+}
+
+h2{
+    color: #D907A9;
+    text-align: right;
+    font-size: 1.8em;
+}
+
+.subject{
+    color: #CE05F0;
+    font-size: 1.8em;
+}
+
+.meaning{
+    color: #F8074A;
+    text-decoration: underline;
+}
+
+.obs{
+    color: rgba(0, 0, 0, 0.342);
+}
+
+h3{
+    color: #D907A9;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+div{
+    background-color: #CE05F0;
+    border: 2px, solid, #5107F8;
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+div:hover{
+    background-color: #F8074A;
+}
+
+div > .heranca {
+    display: none;
+}
+
+div:hover > .heranca {
+    display: block;
+    height: fit-content;
+    width: fit-content;
+}
+
+.heranca{
+    display: none;
+}
+
+a{
+    color: #5107F8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited{
+    color: #4f07f877;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #8007D9;
+}
+
+a::after{
+    content: "[link]";
+    text-decoration: none;
+    font-weight: lighter;
+    color: #8007D9;
+}
+
+p{
+    color: black;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 1em;
+}
