@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../desafios/good-shit.ico" type="image/x-icon">
+    <link rel="stylesheet" href="caixas-style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Text+Me+One&display=swap');
+    </style>
+    <title>Boxes</title>
+</head>
+<body>
+    <main>
+        <h1>Modelo de caixas</h1>
+        <h2>Anatomia das caixas</h2>
+        <p>Olhando uma caixa de dentro para fora, temos primeiro o <mark>conteudo</mark> (content), que por sua vez possui uma <strong>largura</strong> (width) e uma <strong>altura</strong> (heigth) a soma desses elementos resulta no que chamamos de <mark>box-size</mark>(tamanho da caixa).
+        <br>
+        Em seguida temos a <mark>borda</mark> (border), que possui sua própria espessura, cor e formato.
+        <br>
+        Entre a borda e o conteúdo - da borda para dentro - temos a região de <mark>preenchimento</mark> (padding), e para fora da borda temos a <mark>margem</mark> (margin).
+        <br>
+        Entre a margem e a borda temos a região de contorno (outline), que é pouco utilizado, porém existe. É um traçado visual que podemos criar para fora da borda e o cálculo da sua espessura faz parte da margem estabelecida.
+        <br>
+        Segue abaixo uma imagem de exemplo das estruturas mencionadas:
+        </p>
+            <img src="imagens-boxes/box-anatomy-M.png" alt="anatomia-caixa">
+        <h2>Tipos de caixas</h2>
+        <h3>Caixas em Block-level</h3>
+        <p>Caixa do tipo block-level são aquelas caixas que se iniciam na próxima linha e ocupam a largura total da página. Segue abaixo uma lista de algumas tags do tipo box-level:
+            <ul type="square">
+                <li>&lt;div&gt;</li>
+                <li>&lt;main&gt;</li>
+                <li>&lt;h1&gt; - &lt;h6&gt;</li>
+                <li>&lt;dd&gt;</li>
+                <li>&lt;pre&gt;</li>
+                <li>&lt;p&gt;</li>
+            </ul>
+        </p>
+        <h3>Caixas em Inline-level</h3>
+        <p>Essas caixas tem como característica começar no ponto exato onde foram definidas, sendo assim sua largura ocupa apenas o tamanho relativo ao seu conteúdo. Exemplo de algumas tags Inline-level abaixo:
+            <ul type="square">
+                <li>&lt;a&gt;</li>
+                <li>&lt;abbr&gt;</li>
+                <li>&lt;em&gt;</li>
+                <li>&lt;code&gt;</li>
+                <li>&lt;small&gt;</li>
+                <li>&lt;q&gt;</li>
+            </ul>
+        </p>
+        <h1 id="e1">Aqui teremos alguns exemplos na prática</h1>
+        <p>No título acima temos a borda(roxa escura) e um preenchimento bem largo. </p>
+        <p class="caixa-pequena">Já nesse parágrafo temos mundanças no tamanho da caixa (alterando o tamanho e largura da caixa em questão).</p>
+        <p>Aqui podemos ver um exemplo de Inline-level com esse link do meu <a href="https://www.instagram.com/thisisgigika/">instagram.</a></p>
+        <p class="importante"><span class="observacao">OBS: </span><small>Perceba que no exemplo de Inline-level as alterações de estilos feitas são restritas apenas ao conteúdo da tag, o que não ocorre com os Block-level.</small></p>
+        <p class="margem">Nesse parágrafo a margem do texto está no modo 'auto', sendo assim esse parágrafo se encontra centralizado nesse trecho da página.
+        <br>
+        Aqui também temos o contorno, que fica logo após a borda.
+        </p>
+        <p class="importante"><span class="observacao">OBS:</span> <small>Por ser dependente do tamanho da margem o contorno/outline nunca ultrapassa a mesma e nem altera o valor da margem.</small></p>
+    </main>
+</body>
+</html>
