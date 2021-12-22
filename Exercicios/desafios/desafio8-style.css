@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgba(87, 87, 87, 0.473);
+}
+
+.verde{
+    background-color: #A6EB9A;
+}
+
+.amarelo{
+    background-color: #FFFFE3;
+}
+
+.text-green{
+    color: #2A6218;
+}
+
+.text-yellow{
+    color: #C3884B;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+
+a{
+    color: black;
+    text-decoration: underline;
+}
+
+.link-green:hover{
+    color: #2A6218;
+}
+
+.link-yellow:hover{
+    color: #C3884B;
+}
