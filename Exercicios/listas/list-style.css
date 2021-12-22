@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+*{
+    font-family: 'Aldrich', sans-serif;
+}
+
+main{
+    border-style: double;
+    border-color: rgb(140, 192, 80);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(83, 128, 32);
+    border-style: solid;
+    border-color: rgba(83, 128, 32, 0.616);
+    border-radius: 5px;
+    font-size: 2em;
+}
+
+h2{
+    text-align: left;
+    color: rgb(175, 224, 118);
+    border-bottom-style: dashed;
+    border-bottom-color: rgba(174, 224, 118, 0.678);
+    font-size: 1.7em;
+}
+
+p{
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 1em;
+}

@@ -1,0 +1,48 @@
+@charset "UFT-8";
+
+*{
+    font-family: 'Varela Round', sans-serif;
+}
+
+main{
+    width: 600px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 2px, 2px, 3px, black;
+    margin: auto;
+    background-color: white;
+    padding: 10px;
+}
+
+body{
+    background-color: rgba(137, 43, 226, 0.397);
+}
+
+h1{
+    text-align: center;
+    font-size: 2.5em;
+    border-color: rgba(137, 43, 226, 0.397);
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 5px;
+}
+
+h2{
+    font-size: 1.8em;
+    border-bottom: solid;
+    border-bottom-color: rgba(137, 43, 226, 0.397);
+    text-align: left;
+    text-indent: 20px;
+}
+
+h3{
+    font-size: 1.3em;
+    text-align: right;
+    text-decoration: underline;
+    text-decoration-color: rgba(137, 43, 226, 0.397);
+}
+
+p{
+    text-align: justify;
+    text-indent: 20px;
+}

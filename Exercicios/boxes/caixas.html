@@ -25,7 +25,11 @@
         <br>
         Segue abaixo uma imagem de exemplo das estruturas mencionadas:
         </p>
-            <img src="imagens-boxes/box-anatomy-M.png" alt="anatomia-caixa">
+            <picture>
+                <source media="(max-width: 550px)" srcset="imagens-boxes/box-anatomy-P.png" type="image/png">
+                <source media="(max-width: 950px)" srcset="imagens-boxes/box-anatomy-M.png" type="image/png">
+                <img src="imagens-boxes/box-anatomy-G.png" alt="anatomia-caixa-G">
+            </picture>
         <h2>Tipos de caixas</h2>
         <h3>Caixas em Block-level</h3>
         <p>Caixa do tipo block-level são aquelas caixas que se iniciam na próxima linha e ocupam a largura total da página. Segue abaixo uma lista de algumas tags do tipo box-level:
