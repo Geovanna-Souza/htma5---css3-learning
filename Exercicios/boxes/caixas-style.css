@@ -46,6 +46,17 @@ h3{
     font-size: 1.3em;
 }
 
+header{
+    box-shadow: 5px 5px 3px #440061;
+    border-radius: 15px;
+
+}
+
+footer{
+    box-shadow: 5px 5px 3px #440061;
+    border-radius: 15px;
+}
+
 p{
     text-align: justify;
     text-indent: 20px;
